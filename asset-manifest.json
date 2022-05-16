@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/guillote87/portfolio/static/css/main.b0585962.css",
-    "main.js": "/guillote87/portfolio/static/js/main.b1ed11af.js",
-    "static/media/universidog-screen.png": "/guillote87/portfolio/static/media/universidog-screen.ecd514e6c70aa766ddb3.png",
-    "static/media/legacy-screen.png": "/guillote87/portfolio/static/media/legacy-screen.326ce76214f746a2a606.png",
-    "static/media/mern-ak-screen.png": "/guillote87/portfolio/static/media/mern-ak-screen.c3a5f762963b5c9e5b48.png",
-    "static/media/portfolio.jpeg": "/guillote87/portfolio/static/media/portfolio.1973fd60a272c4e9b6b6.jpeg",
-    "static/media/logo.png": "/guillote87/portfolio/static/media/logo.8642ab7a2d7e8189af30.png",
-    "index.html": "/guillote87/portfolio/index.html",
-    "main.b0585962.css.map": "/guillote87/portfolio/static/css/main.b0585962.css.map",
-    "main.b1ed11af.js.map": "/guillote87/portfolio/static/js/main.b1ed11af.js.map"
+    "main.css": "/portfolio/static/css/main.c9d002d4.css",
+    "main.js": "/portfolio/static/js/main.90cffe80.js",
+    "static/media/universidog-screen.png": "/portfolio/static/media/universidog-screen.ecd514e6c70aa766ddb3.png",
+    "static/media/legacy-screen.png": "/portfolio/static/media/legacy-screen.326ce76214f746a2a606.png",
+    "static/media/mern-ak-screen.png": "/portfolio/static/media/mern-ak-screen.c3a5f762963b5c9e5b48.png",
+    "static/media/portfolio.jpeg": "/portfolio/static/media/portfolio.1973fd60a272c4e9b6b6.jpeg",
+    "static/media/logo.png": "/portfolio/static/media/logo.8642ab7a2d7e8189af30.png",
+    "index.html": "/portfolio/index.html",
+    "main.c9d002d4.css.map": "/portfolio/static/css/main.c9d002d4.css.map",
+    "main.90cffe80.js.map": "/portfolio/static/js/main.90cffe80.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0585962.css",
-    "static/js/main.b1ed11af.js"
+    "static/css/main.c9d002d4.css",
+    "static/js/main.90cffe80.js"
   ]
 }
