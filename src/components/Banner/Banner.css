@@ -1,0 +1,48 @@
+.banner {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+}
+
+.banner img{
+       max-height: 500px;
+}
+.banner-info{
+    margin-left: 15px;
+}
+.banner-title {
+    font-size: 2rem;
+    }
+.banner-paragraph {
+    font-size: 1rem;
+}
+.banner-icons{
+    font-size: 1rem;
+}
+.banner-icons a{
+    color:#fff;
+    margin-right: 4px;
+}
+.banner-icons a:hover{
+    color:orange;
+}
+
+@media screen and (min-width: 768px){
+.banner{
+    height: 600px;
+}
+.banner-info{
+    margin-left: 30px;
+}
+    .banner-title {
+        font-size: 3rem;
+            }
+    .banner-paragraph {
+        font-size: 2rem;
+    }
+    .banner-icons{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,68 @@
+.projects-container {
+    width: 100%;
+    height: auto;
+    }
+
+.projects {
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.projects-title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    color: orange
+}
+
+.project img {
+    width: 100%;
+    border: 4px darkmagenta solid
+}
+
+.project-buttons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-buttons svg {
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.demo-button {
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    background-color: silver;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.demo-button:hover {
+    background-color: orange;
+}
+
+@media screen and (min-width: 768px) {
+    .projects {
+        display: flex;
+    }
+
+    .project {
+        padding: 10px;
+    }
+
+    .project img {
+        border: 2px darkmagenta solid
+    }
+
+    .projects-title {
+        margin: 10px;
+    }
+}

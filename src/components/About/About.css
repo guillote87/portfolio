@@ -1,0 +1,93 @@
+.about {
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color: gainsboro;
+}
+
+.about-title {
+   padding-top: 20px;
+    width: 90%;
+    margin: auto;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.about-main {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+}
+.about-bio{
+    width: 90%;
+}
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: orange solid 1px;
+    background-position: top center;
+    background-size: cover;
+    background-image: url(../../images/portfolio.jpeg);
+}
+
+
+.bio-title {
+    color: orange;
+    font-size: 2rem;
+}
+
+.bio-description {
+    font-size: 1.5rem;
+}
+
+.info-sections {
+    padding-right: 4px;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    }
+
+.info-section {
+    padding: 10px;
+    margin: 10px;
+}
+
+.info-title {
+    color: orange
+}
+
+.info-subtitle svg {
+    font-size: 2rem;
+    margin-right: 15px;
+    color: orange;
+    vertical-align: middle;
+}
+
+
+@media screen and (min-width: 768px) {
+    .about-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about-bio {
+        width: 70%;
+    }
+
+    .about-title {
+        font-size: 4rem;
+    }
+
+    .info-sections {
+        display: flex;
+        align-items: unset;
+    }
+
+    .info-section {
+        width: 500px;
+    }
+}
