@@ -4,13 +4,13 @@ import { FaGithub } from "react-icons/fa";
 import img1 from "../../images/legacy-screen.png"
 import img2 from "../../images/universidog-screen.png"
 import img3 from "../../images/mern-ak-screen.png"
-
+import img4 from "../../images/netflix-clone.png"
 export const Projects = () => {
     return (
                 <section className="projects-container" id="projects">
-
+   <h2 className="projects-title"> My Projects</h2>
                 <div className="projects">
-                    <h2 className="projects-title"> My Projects</h2>
+                 
                     <div className="project">
                         <h3 className="project-title">Legacy ITC</h3>
                         <img src={img1} alt="legacy"></img>
@@ -28,7 +28,7 @@ export const Projects = () => {
                             <a className="demo-button" href="http://universidog.herokuapp.com/"  target="_blank" rel="noreferrer">Demo</a>
                             <a href=""><FaGithub /></a>
                         </div>
-                        <h3 className="project-subtitle">SPA(Single Page Application) Universidog ,servicios de educacion canina, pensionados, entrenamiento de perros de asistencia e intervenciones asistidas con animales, formacion para entrenadores</h3>
+                        <h3 className="project-subtitle">SPA(Single Page Application) Universidog, servicios de educacion canina, pensionados, entrenamiento de perros de asistencia e intervenciones asistidas con animales, formacion para entrenadores</h3>
                         <p className="project-description">Interfaz de usuario realizada con CSS, JavaScript</p>
                     </div>
                     <div className="project">
@@ -40,6 +40,16 @@ export const Projects = () => {
                         </div>
                         <h3 className="project-subtitle">E-Commerce para distribuidora de articulos de higiene y medicamentos veterinarios </h3>
                         <p className="project-description">MERN React, se implemento e-commerce con MongoDB, Express, React y Node.js, implentacion de pasarela de pago PAYPAL y envio de mails de confirmacion de compra con MailGun</p>
+                    </div>
+                    <div className="project">
+                        <h3 className="project-title">Netflix Clone</h3>
+                        <img src={img4} alt="netflix-clone"></img>
+                        <div className="project-buttons">
+                            <a className="demo-button" href="https://guillote87.github.io/netflix-clone/"  target="_blank" rel="noreferrer">Demo</a>
+                            <a href="https://guillote87.github.io/netflix-clone/"><FaGithub /></a>
+                        </div>
+                        <h3 className="project-subtitle">Clon de pagina de Netflix, hecho a partir de tutorial React </h3>
+                        <p className="project-description">Interfaz de usuario realizada con CSS, JavaScript</p>
                     </div>
                 </div>
 

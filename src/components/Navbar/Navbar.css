@@ -39,19 +39,23 @@
 }
 
 .mobile-menu {
-    background: none;
-    border: 0;
-    position: absolute;
-    right: 10px;
-    top: 25px
-    
-}
+    display: block;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    display: block;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
 
-.mobile-menu svg {
-    font-size: 1.5rem;
-    color: #fff
+   
 }
-
 
 
 

@@ -11,7 +11,7 @@
 
 .projects-title {
     font-size: 3rem;
-    margin-bottom: 3rem;
+    padding:1rem
 }
 
 .project-title {
@@ -52,10 +52,12 @@
 @media screen and (min-width: 768px) {
     .projects {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .project {
         padding: 10px;
+        width: 400px;
     }
 
     .project img {
@@ -63,6 +65,6 @@
     }
 
     .projects-title {
-        margin: 10px;
+        margin-left: 60px;
     }
 }

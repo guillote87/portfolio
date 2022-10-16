@@ -25,7 +25,7 @@ export const Footer = () => {
                     <div className="footer-icons">
                         <a href="https://www.linkedin.com/in/guillermoquattrocchi/" target="_blank" rel="noreferrer"> <FaLinkedin /></a>
                         <a href="https://github.com/guillote87" target="_blank" rel="noreferrer"><FaGithub /></a>
-                        <a href="https://www.instagram.com/guishote87/?hl=es" target="_blank" rel="noreferrer"><FaInstagram /></a>
+                        <a href="https://www.instagram.com/gq_dev/" target="_blank" rel="noreferrer"><FaInstagram /></a>
                     </div>
                 </div>
                 </div>
