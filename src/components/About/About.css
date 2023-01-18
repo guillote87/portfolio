@@ -32,7 +32,10 @@
     background-size: cover;
     background-image: url(../../images/portfolio.jpeg);
 }
-
+.sap-img{
+    width: 40px;
+    height: 40px;
+}
 
 .bio-title {
     color: orange;
