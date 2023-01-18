@@ -44,6 +44,10 @@ export const About = () => {
 
                         <h3 className="info-subtitle"> Aceleracion Alkemy Node JOB READY - Buenos Aires, Argentina  </h3>
                         <p className="info-date">5/2022 - Finalizado</p>
+                       
+                        <h3 className="info-subtitle"> Master SAP FIORI- Desarrollo con SAPUI5 - Logali Group  </h3>
+                        <p className="info-date">1/2023 - En curso</p>
+
 
 
                     </div>
