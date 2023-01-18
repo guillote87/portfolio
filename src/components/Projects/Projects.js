@@ -54,7 +54,7 @@ export const Projects = () => {
                         <p className="project-description">Interfaz de usuario realizada con CSS, JavaScript</p>
                     </div>
                     <div className="project">
-                        <h3 className="project-title">Dashboard</h3>
+                        <h3 className="project-title">Dashboard - SAP UI5</h3>
                         <img src={img5} alt="dashboard"></img>
                         <div className="project-buttons">
                             <a className="demo-button" href="https://legacy-dashboard.netlify.app/#"  target="_blank" rel="noreferrer">Demo</a>
@@ -64,7 +64,7 @@ export const Projects = () => {
                         <p className="project-description">Dashboard realizado en Fiori Sap UI5, consultando servicio OData, realiza el listado de pedidos y 2 graficos Viz Frame </p>
                     </div>
                     <div className="project">
-                        <h3 className="project-title">Listado Pedidos</h3>
+                        <h3 className="project-title">Listado Pedidos SAP UI5</h3>
                         <img src={img6} alt="pedidos"></img>
                         <div className="project-buttons">
                             <a className="demo-button" href="https://legacy-pedidos-sapui5.netlify.app/"  target="_blank" rel="noreferrer">Demo</a>
