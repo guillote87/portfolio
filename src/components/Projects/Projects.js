@@ -33,7 +33,7 @@ export const Projects = () => {
                         <h3 className="project-subtitle">SPA(Single Page Application) Universidog, servicios de educacion canina, pensionados, entrenamiento de perros de asistencia e intervenciones asistidas con animales, formacion para entrenadores</h3>
                         <p className="project-description">Interfaz de usuario realizada con CSS, JavaScript</p>
                     </div>
-                    <div className="project">
+                    {/* <div className="project">
                         <h3 className="project-title">MERN AK E-Commerce</h3>
                         <img src={img3} alt="mern-ak"></img>
                         <div className="project-buttons">
@@ -42,7 +42,7 @@ export const Projects = () => {
                         </div>
                         <h3 className="project-subtitle">E-Commerce para distribuidora de articulos de higiene y medicamentos veterinarios </h3>
                         <p className="project-description">MERN React, se implemento e-commerce con MongoDB, Express, React y Node.js, implentacion de pasarela de pago PAYPAL y envio de mails de confirmacion de compra con MailGun</p>
-                    </div>
+                    </div> */}
                     <div className="project">
                         <h3 className="project-title">Netflix Clone</h3>
                         <img src={img4} alt="netflix-clone"></img>

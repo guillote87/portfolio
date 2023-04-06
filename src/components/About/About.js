@@ -15,15 +15,7 @@ export const About = () => {
                     <div className="about-bio">
                         <h2 className="bio-title">BIO</h2>
                         <p className="bio-description">
-                            Con casi 20 años de experiencia en el mundo del soporte
-                            informatico, hoy me encuentro en la búsqueda de insertarme
-                            formalmente en lo que al mundo de la programación se refiere,
-                            siempre me apasiono todo lo relacionado a la computación y
-                            hoy elijo continuar mi carrera profesional en este nuevo campo.
-                            Estoy entusiasmado de ganar más experiencia en este rubro y
-                            espero que su empresa pueda darme la oportunidad de
-                            sumarme a su equipo. Soy una persona amable, respetuosa,
-                            creativa, con capacidad de liderazgo, y motivada para trabajar. </p>
+                            With almost 20 years of experience in the world of computer support, today I am looking to formally insert myself into the world of programming, I have always been passionate about everything related to computing and today I choose to continue my professional career in this new field. I am excited to gain more experience in this field and hope that your company can give me the opportunity to join your team. I am a kind, respectful, creative person, with leadership skills, and motivated to work. </p>
                     </div>
                 </div>
                 <div className="info-sections">
@@ -44,7 +36,7 @@ export const About = () => {
 
                         <h3 className="info-subtitle"> Aceleracion Alkemy Node JOB READY - Buenos Aires, Argentina  </h3>
                         <p className="info-date">5/2022 - Finalizado</p>
-                       
+
                         <h3 className="info-subtitle"> Master SAP FIORI- Desarrollo con SAPUI5 - Logali Group  </h3>
                         <p className="info-date">1/2023 - En curso</p>
 
@@ -53,12 +45,12 @@ export const About = () => {
                     </div>
                     <div className="info-section">
                         <h2 className="info-title">Skills</h2>
-                        <h3 className="info-subtitle"><img className="sap-img" src={sap}/>  SAPUI 5 </h3>
+                        <h3 className="info-subtitle"><img className="sap-img" src={sap} />  SAPUI 5 </h3>
                         <h3 className="info-subtitle"><FaJs /> Javascript </h3>
                         <h3 className="info-subtitle"><FaReact /> React </h3>
                         <h3 className="info-subtitle"><FaNodeJs /> Node.Js </h3>
                         <h3 className="info-subtitle"><FaDatabase /> MongoDB </h3>
-  
+
                     </div>
                     <div className="info-section">
                         <h2 className="info-title">Languages</h2>
@@ -82,9 +74,9 @@ export const About = () => {
                         <h3 className="info-subtitle">WEBINAR SAP FIORI Gráficos Vizframe con SAPUI5 - LOGALI Group</h3>
                         <p className="info-date">Logali Group - 2022</p>
 
-                       
-                        
-                       
+
+
+
 
 
                     </div>

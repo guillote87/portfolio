@@ -11,7 +11,7 @@ export const Footer = () => {
                 <h3>Guillermo Quattrocchi</h3>
                 <p> Full Stack Web Developer</p>
                 <p> 11-5615-0502</p>
-                <p>guillermo27@gmail.com</p>
+                <p>gq4dev@gmail.com</p>
             </div>
             <div className="footer-content">
                 <div className="footer-info" >
