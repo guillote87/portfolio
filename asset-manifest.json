@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.477b0422.css",
-    "main.js": "/static/js/main.290b23c4.js",
+    "main.js": "/static/js/main.84e58c9e.js",
     "static/media/netflix-clone.png": "/static/media/netflix-clone.b216245ce64073e84950.png",
     "static/media/universidog-screen.png": "/static/media/universidog-screen.ecd514e6c70aa766ddb3.png",
     "static/media/legacy-screen.png": "/static/media/legacy-screen.326ce76214f746a2a606.png",
@@ -13,10 +13,10 @@
     "static/media/sap-vector-logo.svg": "/static/media/sap-vector-logo.447c7ca3440c1638a9c071c2bb647e24.svg",
     "index.html": "/index.html",
     "main.477b0422.css.map": "/static/css/main.477b0422.css.map",
-    "main.290b23c4.js.map": "/static/js/main.290b23c4.js.map"
+    "main.84e58c9e.js.map": "/static/js/main.84e58c9e.js.map"
   },
   "entrypoints": [
     "static/css/main.477b0422.css",
-    "static/js/main.290b23c4.js"
+    "static/js/main.84e58c9e.js"
   ]
 }
