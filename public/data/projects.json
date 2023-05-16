@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Legacy ITC",
+        "category": "React",
+        "deploy": "Hostinger",
+        "img": "legacy-screen.png",
+        "url": "http://legacyitc.com/",
+        "urlGit": "http://legacyitc.com/",
+        "subtitle": "SPA(Single Page Application) Legacy ITC, servicios de consultoria en sistemas SAP",
+        "description": "Pagina web implementada en React.Js, Implementacion de recepcion de mail con plataforma FormSpree para contacto"
+    },
+    {
+        "title": "Universidog",
+        "category": "React",
+        "deploy": "GitHub Pages",
+        "img": "universidog.png",
+        "url": "https://guillote87.github.io/universidog-React/",
+        "urlGit": "https://guillote87.github.io/universidog-React/",
+        "subtitle": "SPA(Single Page Application) Universidog, servicios de educacion canina, pensionados, entrenamiento de perros de asistencia e intervenciones asistidas con animales, formacion para entrenadores",
+        "description": "Interfaz de usuario realizada con CSS, JavaScript"
+    },
+    {
+        "title": "MERN AK E-Commerce",
+        "category": "React",
+        "deploy": "Heroku",
+        "img": "akmern.png",
+        "url": "http://mern-ak.herokuapp.com/",
+        "urlGit": "http://mern-ak.herokuapp.com/",
+        "subtitle": "E-Commerce para distribuidora de articulos de higiene y medicamentos veterinarios",
+        "description": "MERN React, se implemento e-commerce con MongoDB, Express, React y Node.js, implentacion de pasarela de pago PAYPAL y envio de mails de confirmacion de compra con MailGun"
+    },
+    {
+        "title": "Listado Pedidos SAP UI5",
+        "category": "SAPUI5",
+        "deploy": "Netlify",
+        "img": "Pedidos.png",
+        "url": "https://legacy-pedidos-sapui5.netlify.app/",
+        "urlGit": "https://legacy-pedidos-sapui5.netlify.app/",
+        "subtitle": "Listado Pedidos",
+        "description": "Listado de pedidos realizado en Fiori Sap UI5, consultando servicio OData, realiza el listado de pedidos con busqueda por fecha y formateo de estado, validacion de campos de busqueda."
+    }
+    ,
+    {
+        "title": "Netflix Clone",
+        "category": "React",
+        "deploy": "Netlify",
+        "img": "netflix-clone.png",
+        "url": "https://guillote87.github.io/netflix-clone/",
+        "urlGit": "https://guillote87.github.io/netflix-clone/",
+        "subtitle": "Netflix Clone",
+        "description": "App realizada en React clon de Netflix"
+    }
+    ,
+    {
+        "title": "Dashboard - SAP UI5",
+        "category": "SAPUI5",
+        "deploy": "Netlify",
+        "img": "dashboard.png",
+        "url": "https://legacy-dashboard.netlify.app/#",
+        "urlGit": "https://legacy-dashboard.netlify.app/#",
+        "subtitle": "Dashboard",
+        "description": "Dashboard realizado en Fiori Sap UI5, consultando servicio OData, realiza el listado de pedidos y 2 graficos Viz Frame"
+    }
+]

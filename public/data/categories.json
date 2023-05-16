@@ -1,0 +1,16 @@
+[{
+    "title": "SAP Ui5",
+    "backImage": "../images/categories/bgSap.jpg",
+    "frontImage":"../images/categories/logo-avg.png"
+},
+{
+    "title":"React",
+    "backImage": "../images/categories/bgreact.jpg",
+    "frontImage": "../images/categories/react.svg"
+},
+{
+    "title": "Next.js",
+    "backImage": "../images/categories/bgNextjs.jpg",
+    "frontImage": "../images/categories/nextjs.svg"
+}
+]

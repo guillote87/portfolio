@@ -1,4 +1,5 @@
 .navbar {
+    margin-top: -80px;
     z-index: 3;
     height: 80px;
     width: 100%;
@@ -29,7 +30,7 @@
     width: 100%;
     height: auto;
     background-color: orange;
-    
+
 
 
 }
@@ -41,13 +42,13 @@
 
 .mobile-menu {
     display: block;
-    position:absolute;
+    position: absolute;
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     display: block;
-    position:absolute;
+    position: absolute;
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
@@ -55,7 +56,7 @@
     cursor: pointer;
     color: #fff;
 
-   
+
 }
 
 
@@ -72,7 +73,7 @@
         position: absolute;
         right: 10px;
         top: 25px;
-         }
+    }
 
     .navbar-menu-open {
         display: none;
@@ -89,6 +90,6 @@
     }
 
     .mobile-menu {
-            display: none;
+        display: none;
     }
 }

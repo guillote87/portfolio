@@ -39,11 +39,11 @@ export const Navbar = ({toggle}) => {
                 spy={true} 
                 exact='true' 
                 offset={-80}  >About</LinkS>
-                <LinkS to="projects" smooth={true} 
+                <LinkS to="portfolio" smooth={true} 
                 duration={500}
                 spy={true} 
                 exact='true' 
-                offset={-80} >Projects</LinkS>
+                offset={-80} >Portfolio</LinkS>
                 <LinkS to="contact"smooth={true} 
                 duration={500}
                 spy={true} 

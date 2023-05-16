@@ -16,7 +16,7 @@ article img:first-child {
 article img:last-child {
     position: absolute;
     width: 120px;
-    bottom: 40px;
+    bottom: 25%;
     left: 0;
     right: 0;
     margin: auto;
@@ -70,13 +70,13 @@ article:hover img:last-child {
     article img:last-child {
         position: absolute;
         width: 170px;
-        bottom: 30%;
+        bottom: 40%;
         left: 0;
         right: 0;
         margin: auto;
         transform: translateY(25%);
         transition: .3s ease;
-        opacity: 0;
+        opacity: 1;
     }
 
     .category-title {
@@ -85,7 +85,7 @@ article:hover img:last-child {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        display: block;
+        display: none;
     }
 
     article:hover {
@@ -93,7 +93,7 @@ article:hover img:last-child {
     }
 
     article:hover .category-title {
-        display: none
+        display: block
     }
 
     article::before {
@@ -116,7 +116,7 @@ article:hover img:last-child {
     }
 
     article:hover img:last-child {
-        opacity: 1;
+        opacity: 0;
         transform: translateY(10%);
     }
 
