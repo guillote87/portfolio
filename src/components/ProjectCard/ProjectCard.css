@@ -1,13 +1,3 @@
-.projects-container {
-    width: 100%;
-    height: auto;
-    }
-
-.projects {
-    width: 90%;
-    margin: auto;
-    padding-top: 15px;
-}
 
 .projects-title {
     font-size: 3rem;
@@ -48,18 +38,12 @@
 .demo-button:hover {
     background-color: orange;
 }
-
 @media screen and (min-width: 768px) {
-    .projects {
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     .project {
         padding: 10px;
         width: 400px;
     }
-
     .project img {
         border: 2px darkmagenta solid
     }
