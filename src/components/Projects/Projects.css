@@ -1,0 +1,26 @@
+.portfolio-icons {
+    
+   width: 300px;
+margin: auto;
+}
+.portfolio-icons ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.portfolio-icons li{
+    width: 50%;
+    list-style: none;
+}
+.portfolio-icons img{
+
+    width: 50px;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}

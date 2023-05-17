@@ -1,7 +1,7 @@
 [
     {
         "title": "Legacy ITC",
-        "category": "React",
+        "category": "react",
         "deploy": "Hostinger",
         "img": "legacy-screen.png",
         "url": "http://legacyitc.com/",
@@ -11,7 +11,7 @@
     },
     {
         "title": "Universidog",
-        "category": "React",
+        "category": "react",
         "deploy": "GitHub Pages",
         "img": "universidog.png",
         "url": "https://guillote87.github.io/universidog-React/",
@@ -21,7 +21,7 @@
     },
     {
         "title": "MERN AK E-Commerce",
-        "category": "React",
+        "category": "react",
         "deploy": "Heroku",
         "img": "akmern.png",
         "url": "http://mern-ak.herokuapp.com/",
@@ -31,34 +31,42 @@
     },
     {
         "title": "Listado Pedidos SAP UI5",
-        "category": "SAPUI5",
+        "category": "sapui5",
         "deploy": "Netlify",
         "img": "Pedidos.png",
         "url": "https://legacy-pedidos-sapui5.netlify.app/",
         "urlGit": "https://legacy-pedidos-sapui5.netlify.app/",
         "subtitle": "Listado Pedidos",
         "description": "Listado de pedidos realizado en Fiori Sap UI5, consultando servicio OData, realiza el listado de pedidos con busqueda por fecha y formateo de estado, validacion de campos de busqueda."
-    }
-    ,
+    },
     {
         "title": "Netflix Clone",
-        "category": "React",
+        "category": "react",
         "deploy": "Netlify",
         "img": "netflix-clone.png",
         "url": "https://guillote87.github.io/netflix-clone/",
         "urlGit": "https://guillote87.github.io/netflix-clone/",
         "subtitle": "Netflix Clone",
         "description": "App realizada en React clon de Netflix"
-    }
-    ,
+    },
     {
         "title": "Dashboard - SAP UI5",
-        "category": "SAPUI5",
+        "category": "sapui5",
         "deploy": "Netlify",
         "img": "dashboard.png",
         "url": "https://legacy-dashboard.netlify.app/#",
         "urlGit": "https://legacy-dashboard.netlify.app/#",
         "subtitle": "Dashboard",
         "description": "Dashboard realizado en Fiori Sap UI5, consultando servicio OData, realiza el listado de pedidos y 2 graficos Viz Frame"
+    },
+    {
+        "title": "Ecommerce Nextjs",
+        "category": "nextjs",
+        "deploy": "Netlify",
+        "img": "ecommerce.png",
+        "url": "https://gq-ecom-nextjs.netlify.app/",
+        "urlGit": "https://gq-ecom-nextjs.netlify.app/",
+        "subtitle": "Ecommerce",
+        "description": "Ecommerce creado utilizando Next.js"
     }
 ]

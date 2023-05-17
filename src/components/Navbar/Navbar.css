@@ -10,7 +10,10 @@
     background-color: black;
     color: #fff;
 }
-
+a{
+    text-decoration: none;
+    color: #fff;
+}
 .navbar-logo {
     width: 100px;
 }
@@ -30,9 +33,6 @@
     width: 100%;
     height: auto;
     background-color: orange;
-
-
-
 }
 
 .navbar-menu-open a {
