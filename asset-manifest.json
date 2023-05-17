@@ -1,22 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.477b0422.css",
-    "main.js": "/static/js/main.84e58c9e.js",
-    "static/media/netflix-clone.png": "/static/media/netflix-clone.b216245ce64073e84950.png",
-    "static/media/universidog-screen.png": "/static/media/universidog-screen.ecd514e6c70aa766ddb3.png",
-    "static/media/legacy-screen.png": "/static/media/legacy-screen.326ce76214f746a2a606.png",
-    "static/media/mern-ak-screen.png": "/static/media/mern-ak-screen.c3a5f762963b5c9e5b48.png",
-    "static/media/Pedidos.png": "/static/media/Pedidos.fd9cc1539cc944f7b62a.png",
-    "static/media/dashboard.png": "/static/media/dashboard.d3baee3ec4e49b17173c.png",
+    "main.css": "/static/css/main.e305edd4.css",
+    "main.js": "/static/js/main.2ccadf1c.js",
     "static/media/portfolio.jpeg": "/static/media/portfolio.1973fd60a272c4e9b6b6.jpeg",
     "static/media/logo.png": "/static/media/logo.8642ab7a2d7e8189af30.png",
     "static/media/sap-vector-logo.svg": "/static/media/sap-vector-logo.447c7ca3440c1638a9c071c2bb647e24.svg",
     "index.html": "/index.html",
-    "main.477b0422.css.map": "/static/css/main.477b0422.css.map",
-    "main.84e58c9e.js.map": "/static/js/main.84e58c9e.js.map"
+    "main.e305edd4.css.map": "/static/css/main.e305edd4.css.map",
+    "main.2ccadf1c.js.map": "/static/js/main.2ccadf1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.477b0422.css",
-    "static/js/main.84e58c9e.js"
+    "static/css/main.e305edd4.css",
+    "static/js/main.2ccadf1c.js"
   ]
 }
