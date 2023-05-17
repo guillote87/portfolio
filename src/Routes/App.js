@@ -18,7 +18,7 @@ function App() {
     <BrowserRouter>
       <Navbar toggle={toggle} />
       <Routes>
-        <Route path="/home" index element={<Home />} />
+        <Route index path="/" element={<Home />} />
         <Route path="/portfolio/:cat" element={<Portfolio />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

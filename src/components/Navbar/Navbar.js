@@ -30,10 +30,10 @@ export const Navbar = ({ toggle }) => {
 
     <div className="navbar">
       <div className="navbar-logo">
-        <Link to="home" onClick={toggleHome}>   <img className="navbar-logo" src={logo} alt="logo"></img></Link>
+        <Link to="/" onClick={toggleHome}>   <img className="navbar-logo" src={logo} alt="logo"></img></Link>
       </div>
       <div className="navbar-menu">
-        <Link to="home" smooth={true}
+        <Link to="/" smooth={true}
           duration={500}
           spy={true}
           exact='true'

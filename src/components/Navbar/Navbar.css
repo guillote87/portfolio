@@ -55,12 +55,7 @@ a{
     font-size: 1.8rem;
     cursor: pointer;
     color: #fff;
-
-
 }
-
-
-
 
 @media screen and (min-width: 768px) {
     .navbar-menu {
