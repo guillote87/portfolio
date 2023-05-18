@@ -16,9 +16,9 @@ export const Footer = () => {
             <div className="footer-content">
                 <div className="footer-info" >
                     <h4>Menu</h4>
-                    <a href="#home">Home</a>
-                    <a href="#about">About Me</a>
-                    <a href="#projects">My Projects</a>
+                    <a href="/">Home</a>
+                    <a href="/#about">About Me</a>
+                    <a href="/#projects">My Projects</a>
                 </div>
                 <div className="footer-info" >
                     <h4>Follow Me</h4>

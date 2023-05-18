@@ -12,7 +12,7 @@
     {
         "title": "Universidog",
         "category": "react",
-        "deploy": "GitHub Pages",
+        "deploy": "Pages",
         "img": "universidog.png",
         "url": "https://guillote87.github.io/universidog-React/",
         "urlGit": "https://guillote87.github.io/universidog-React/",
@@ -30,7 +30,7 @@
         "description": "MERN React, se implemento e-commerce con MongoDB, Express, React y Node.js, implentacion de pasarela de pago PAYPAL y envio de mails de confirmacion de compra con MailGun"
     },
     {
-        "title": "Listado Pedidos SAP UI5",
+        "title": "Listado Pedidos - SAP UI5",
         "category": "sapui5",
         "deploy": "Netlify",
         "img": "Pedidos.png",
@@ -62,11 +62,31 @@
     {
         "title": "Ecommerce Nextjs",
         "category": "nextjs",
-        "deploy": "Netlify",
+        "deploy": "Vercel",
         "img": "ecommerce.png",
         "url": "https://gq-ecom-nextjs.netlify.app/",
         "urlGit": "https://gq-ecom-nextjs.netlify.app/",
         "subtitle": "Ecommerce",
         "description": "Ecommerce creado utilizando Next.js"
-    }
+    },
+    {
+        "title": "Proyecto Fiori - SAP UI5",
+        "category": "sapui5",
+        "deploy": "Netlify",
+        "img": "fioriproject.png",
+        "url": "https://proyectofiori.netlify.app/",
+        "urlGit": "https://proyectofiori.netlify.app/",
+        "subtitle": "Fiori Sapui5 Project",
+        "description": "Proyecto realizado durante la cursada del Master Fiori Desarrollo de aplicaciones Sapui5, consta de un proyecto que utiliza un destino Odata al servicio Northwind, filtros de busqueda, flexible layouts, libreria externa de firma"
+    },
+    {
+        "title": "Proyecto Final - SAP UI5",
+        "category": "sapui5",
+        "deploy": "Netlify",
+        "img": "masterfinal.png",
+        "url": "https://masterfinalsapui5.netlify.app/",
+        "urlGit": "https://masterfinalsapui5.netlify.app/",
+        "subtitle": "Fiori Master Sapui5 Project",
+        "description": "Proyecto realizado durante la cursada del Master Fiori Desarrollo de aplicaciones Sapui5, creacion de empleados, con validaciones, listado de empleados y carga de archivos con UploadSet, vistas de creacion con Wizard de 3 pasos."
+       }
 ]

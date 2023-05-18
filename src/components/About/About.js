@@ -6,6 +6,11 @@ import { FaJs, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
 
 
 export const About = () => {
+    const Pdf = "../files/MasterSapui5.pdf"
+    const onResumeClick = () => {
+        window.open(Pdf);
+    }
+
     return (
         <div>
             <section className="about" id="about">
@@ -38,14 +43,15 @@ export const About = () => {
                         <p className="info-date">5/2022 - Finalizado</p>
 
                         <h3 className="info-subtitle"> Master SAP FIORI- Desarrollo con SAPUI5 - Logali Group  </h3>
-                        <p className="info-date">1/2023 - En curso</p>
+                        <p className="info-date">1/2023 - 5/2023</p>
+                        <a className='certificate' onClick={onResumeClick} href='/'> <p class="info-subtitle"> Logali Certificate</p></a>
 
 
 
                     </div>
                     <div className="info-section">
                         <h2 className="info-title">Skills</h2>
-                        <h3 className="info-subtitle"><img className="sap-img" src={sap} />  SAPUI 5 </h3>
+                        <h3 className="info-subtitle"><img className="sap-img" src={sap} alt='Sap' />  SAPUI 5 </h3>
                         <h3 className="info-subtitle"><FaJs /> Javascript </h3>
                         <h3 className="info-subtitle"><FaReact /> React </h3>
                         <h3 className="info-subtitle"><FaNodeJs /> Node.Js </h3>
@@ -56,7 +62,7 @@ export const About = () => {
                         <h2 className="info-title">Languages</h2>
                         <h3 className="info-subtitle">Ingles </h3>
                         <p className="info-date">EF SET English Certificate 68/100 (C1 Advanced)</p>
-                        <a href="https://www.efset.org/cert/4AJTB1" target="_blank" rel="noreferrer"> <p class="info-subtitle"> EF Certificate</p></a>
+                        <a className='certificate' href="https://www.efset.org/cert/4AJTB1" target="_blank" rel="noreferrer"> <p class="info-subtitle"> EF Certificate</p></a>
 
                     </div>
                     <div className="info-section">

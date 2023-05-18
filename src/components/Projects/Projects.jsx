@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { ProjectCard } from '../ProjectCard/ProjectCard'
 import { useParams, Link } from 'react-router-dom'
 import './Projects.css'
+
+
 export const Projects = () => {
     let params = useParams()
     const [projects, setProjects] = useState([])
@@ -11,7 +13,6 @@ export const Projects = () => {
         fetch('../data/projects.json')
             .then(response => response.json())
             .then(data => {
-
                 setProjects(data.filter(project => project.category === category))
             })
             .catch(error => {
@@ -23,8 +24,6 @@ export const Projects = () => {
 
     return (
         <>
-
-
             <section className="categories-container" id="portfolio">
                 <h2 className="categories-title">Portfolio</h2>
                 <div className='portfolio-icons'>

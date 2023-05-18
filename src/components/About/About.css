@@ -69,6 +69,10 @@
     vertical-align: middle;
 }
 
+.certificate{
+    font-weight: bold;
+    color:blue ;
+}
 
 @media screen and (min-width: 768px) {
     .about-main {
