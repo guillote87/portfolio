@@ -41,7 +41,7 @@
     },
     {
         "title": "Netflix Clone",
-        "category": "react",
+        "category": "sapui5",
         "deploy": "Netlify",
         "img": "netflix-clone.png",
         "url": "https://guillote87.github.io/netflix-clone/",
