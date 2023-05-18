@@ -8,6 +8,7 @@ import Portfolio from '../pages/Portfolio';
 import NotFound from '../pages/NotFound';
 import { useState } from 'react';
 
+
 function App() {
   const [isOpen, setIsOpen] = useState(false)
 
