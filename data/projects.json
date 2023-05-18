@@ -41,13 +41,13 @@
     },
     {
         "title": "Netflix Clone",
-        "category": "react",
+        "category": "sapui5",
         "deploy": "Netlify",
         "img": "netflix-clone.png",
         "url": "https://guillote87.github.io/netflix-clone/",
         "urlGit": "https://guillote87.github.io/netflix-clone/",
         "subtitle": "Netflix Clone",
-        "description": "App realizada en React clon de Netflix"
+        "description": "App realizada en React clon de Netflix - "
     },
     {
         "title": "Dashboard - SAP UI5",
@@ -87,6 +87,6 @@
         "url": "https://masterfinalsapui5.netlify.app/",
         "urlGit": "https://masterfinalsapui5.netlify.app/",
         "subtitle": "Fiori Master Sapui5 Project",
-        "description": "Proyecto realizado durante la cursada del Master Fiori Desarrollo de aplicaciones Sapui5, creacion de empleados, con validaciones, listado de empleados y carga de archivos con UploadSet, vistas de creacion con Wizard de 3 pasos."
+        "description": "Proyecto realizado  durante la cursada del Master Fiori Desarrollo de aplicaciones Sapui5, creacion de empleados, con validaciones, listado de empleados y carga de archivos con UploadSet, vistas de creacion con Wizard de 3 pasos."
        }
 ]
