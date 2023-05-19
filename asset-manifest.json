@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.903691c6.css",
+    "main.css": "/static/css/main.3a1383c6.css",
     "main.js": "/static/js/main.351f0286.js",
     "static/media/portfolio.jpeg": "/static/media/portfolio.1973fd60a272c4e9b6b6.jpeg",
     "static/media/logo.png": "/static/media/logo.8642ab7a2d7e8189af30.png",
     "static/media/sap-vector-logo.svg": "/static/media/sap-vector-logo.447c7ca3440c1638a9c071c2bb647e24.svg",
     "index.html": "/index.html",
-    "main.903691c6.css.map": "/static/css/main.903691c6.css.map",
+    "main.3a1383c6.css.map": "/static/css/main.3a1383c6.css.map",
     "main.351f0286.js.map": "/static/js/main.351f0286.js.map"
   },
   "entrypoints": [
-    "static/css/main.903691c6.css",
+    "static/css/main.3a1383c6.css",
     "static/js/main.351f0286.js"
   ]
 }
