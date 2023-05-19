@@ -75,7 +75,7 @@ a {
     transition: all .5s linear
 }
 
-/*made with ❤, by qpi65*/
+
 @media screen and (min-width: 768px) {
 
     .title {
@@ -86,6 +86,15 @@ a {
         letter-spacing: 3px;
         cursor: pointer
     }
+
+    .title .span1 {
+        margin-left: 30px;
+    }
+
+    .title span {
+        transition: .5s ease-in-out
+    }
+
     .span1::before {
         content: '{';
     }
@@ -93,17 +102,17 @@ a {
     .span2::after {
         content: '}';
     }
-    .title .span1 {
-        margin-left: 40px;
-        transition: all .5s linear
-    }
+
     .title:hover .span1 {
-        margin-right: 5px;
-        margin-left: 35px
+        margin-right: 3px;
     }
 
-    .title:hover .span1:before {
-        content: '{GQ4DEV';
+    .title:hover .span1::after {
+        content: 'GQ4';
+    }
+
+    .title:hover .span2::before {
+        content: 'DEV';
     }
 
 
