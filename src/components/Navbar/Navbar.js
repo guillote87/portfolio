@@ -32,7 +32,9 @@ export const Navbar = ({ toggle }) => {
 
     <div className="navbar">
       <div className="navbar-logo">
-        <Link to="/" onClick={toggleHome}>   <img className="navbar-logo" src={logo} alt="logo"></img></Link>
+        {/* <h1 className='title'><span className='span1'></span><span className='span2'></span></h1> */}
+        <Link to="/" onClick={toggleHome}> <h1 className='title'><span className='span1'></span><span className='span2'></span></h1></Link>
+        {/* <Link to="/" onClick={toggleHome}>   <img className="navbar-logo" src={logo} alt="logo"></img></Link> */}
       </div>
 
 

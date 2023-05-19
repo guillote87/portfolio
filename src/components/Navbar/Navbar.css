@@ -10,10 +10,12 @@
     background-color: black;
     color: #fff;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
+
 .navbar-logo {
     width: 100px;
 }
@@ -57,10 +59,64 @@ a{
     color: #fff;
 }
 
+.span1::before {
+    content: '{GQ}';
+}
+
+.title {
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.title .span1 {
+    margin-left: 10px;
+    transition: all .5s linear
+}
+
+/*made with ❤, by qpi65*/
 @media screen and (min-width: 768px) {
+
+    .title {
+        color: orange;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: monospace;
+        letter-spacing: 3px;
+        cursor: pointer
+    }
+    .span1::before {
+        content: '{';
+    }
+
+    .span2::after {
+        content: '}';
+    }
+    .title .span1 {
+        margin-left: 40px;
+        transition: all .5s linear
+    }
+    .title:hover .span1 {
+        margin-right: 5px;
+        margin-left: 35px
+    }
+
+    .title:hover .span1:before {
+        content: '{GQ4DEV';
+    }
+
+
+    .title:hover span {
+        color: #fff;
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 40px #fff;
+    }
+
     .navbar-menu {
         text-align: right;
-        color: #fff;
+        color: orange;
         display: block;
         margin-left: auto;
         width: 60%;
