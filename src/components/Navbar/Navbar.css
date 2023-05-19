@@ -60,7 +60,7 @@ a {
 }
 
 .span1::before {
-    content: '{GQ}';
+    content: '<GQ/>';
 }
 
 .title {
