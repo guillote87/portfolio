@@ -20,7 +20,7 @@ export const About = () => {
                     <div className="about-bio">
                         <h2 className="bio-title">BIO</h2>
                         <p className="bio-description">
-                            With almost 20 years of experience in the world of computer support, today I am looking to formally insert myself into the world of programming, I have always been passionate about everything related to computing and today I choose to continue my professional career in this new field. I am excited to gain more experience in this field and hope that your company can give me the opportunity to join your team. I am a kind, respectful, creative person, with leadership skills, and motivated to work. </p>
+                            With almost 20 years of experience in the world of IT support, today I am looking to formally insert myself into the world of programming, I have always been passionate about everything related to computing and today I choose to continue my professional career in this new field.<br/> I am excited to gain more experience in this field and hope that your company can give me the opportunity to join your team.<br/> I am a kind, respectful, creative person, with leadership skills, and motivated to work. </p>
                     </div>
                 </div>
                 <div className="info-sections">
@@ -79,11 +79,6 @@ export const About = () => {
 
                         <h3 className="info-subtitle">WEBINAR SAP FIORI Gráficos Vizframe con SAPUI5 - LOGALI Group</h3>
                         <p className="info-date">Logali Group - 2022</p>
-
-
-
-
-
 
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub,FaInstagram } from "react-icons/fa";
 
 export const Banner = () => {
     return (
-        <header className="banner" id="home">
+        <header className="banner" id="/">
             <div className="banner-info">
                 <h1 className="banner-title">Guillermo Quattrocchi</h1>
                 <p className="banner-paragraph">Full Stack Web Developer</p>

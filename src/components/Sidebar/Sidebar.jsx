@@ -1,28 +1,70 @@
 import React from 'react'
 import './Sidebar.css'
 import { FaTimes } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { animateScroll as scroll, Link as LinkS } from 'react-scroll'
+import { Link, useLocation } from 'react-router-dom'
 
 export const Sidebar = ({ isOpen, toggle }) => {
+
+    const location = useLocation()
     const className = `sidebar-container ${isOpen ? "open" : ""}`;
+    const toggleHome = () => {
+        scroll.scrollToTop()
+    }
     return (
         <aside className={className} onClick={toggle}>
             <div className='icon' onClick={toggle}>
                 <FaTimes />
             </div>
-            <div className='sidebar-wrapper'>
-                <div className='sidebar-menu' to='#'>
-                    <Link className='sidebar-link' to="/about" onClick={toggle}>
-                        About
-                    </Link>
-                    <Link className='sidebar-link' to="/portfolio/sapui5" onClick={toggle}>
-                        Portfolio
-                    </Link>
-                    <Link className='sidebar-link' to="/contact" onClick={toggle}>
-                        Contact
-                    </Link>
+            {location.pathname === "/" ? (
+                <div className='sidebar-wrapper'>
+                    <div className='sidebar-menu' to='#'>
+                        <LinkS to="/" 
+                         className='sidebar-link'
+                         smooth={true}
+                         duration={500}
+                         spy={true}
+                         exact='true'
+                         offset={-80} onClick={toggle}>
+                            Home
+                        </LinkS>
+                        <LinkS to="about"
+                            className='sidebar-link'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80} onClick={toggle} >About</LinkS>
+                        <LinkS to="portfolio"
+                            className='sidebar-link'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80} onClick={toggle} >Portfolio</LinkS>
+                        <LinkS to="contact"
+                            className='sidebar-link'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80} onClick={toggle} >Contact</LinkS>
+                    </div>
                 </div>
-            </div>
+            ) : (
+                <div className='sidebar-menu' to='#'>
+                    <Link className='sidebar-link' to="/" onClick={toggle}>
+                        Home
+                    </Link>
+                    <LinkS to="contact"
+                            className='sidebar-link'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80} onClick={toggle} >Contact</LinkS>
+                </div>
+            )}
         </aside>
     )
 }
