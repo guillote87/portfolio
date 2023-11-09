@@ -60,13 +60,16 @@ a {
 }
 
 .span1::before {
-    content: '<GQ/>';
+    content: '<GQ>';
 }
 
 .title {
     color: orange;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Days One', sans-serif;
+    /* font-family: 'Secular One', sans-serif;
+    font-family: 'Stick No Bills', sans-serif; */
 }
 
 .title .span1 {
@@ -115,10 +118,10 @@ a {
 
 
     .title:hover span {
-        color: #fff;
-        text-shadow: 0 0 10px #fff,
-            0 0 20px #fff,
-            0 0 40px #fff;
+        color: magenta;
+        text-shadow: 0 0 10px darkmagenta,
+            0 0 20px darkmagenta,
+            0 0 40px darkmagenta;
     }
 
     .navbar-menu {

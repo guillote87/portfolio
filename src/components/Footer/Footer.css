@@ -9,6 +9,15 @@
     align-self: center;
 }
 
+.footer-title::before {
+    content: "</>  GQ";
+    color: orange;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Days One', sans-serif;
+}
+
 .footer-brand {
     text-align: center;
 }
@@ -38,7 +47,7 @@
 @media screen and (min-width: 768px) {
     .footer-info {
         width: 80%;
-        margin:auto ;
+        margin: auto;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;

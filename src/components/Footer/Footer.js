@@ -8,7 +8,8 @@ export const Footer = () => {
         <footer className="footer" id="contact">
             <div className="footer-info" >
                 <div className="footer-brand" >
-                    <img className="footer-logo" src={logo} alt=""></img>
+                    {/* <img className="footer-logo" src={logo} alt=""></img> */}
+                    <h2 className='footer-title'> </h2>
                     <h3>Guillermo Quattrocchi</h3>
                     <p> Full Stack Web Developer</p>
                     <p>+54 9 11-5615-0502</p>
