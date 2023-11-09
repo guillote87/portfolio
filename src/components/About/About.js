@@ -2,6 +2,7 @@ import React from 'react'
 import "./About.css"
 import img from "../../images/portfolio.jpeg"
 import sap from "../../images/sap-vector-logo.svg"
+import terraform from '../../images/terraform.png'
 import { FaJs, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
 
 
@@ -31,7 +32,10 @@ export const About = () => {
                         <p className="info-date">12/2008 - 12/2020</p>
 
                         <h3 className="info-subtitle">Bocalan Argentina - Buenos Aires, Argentina </h3>
-                        <p className="info-date">12/2013 - Today</p>
+                        <p className="info-date">12/2013 - 12/2022</p>
+
+                        <h3 className="info-subtitle">Pulpou - Brand Protection Program (Mercado Libre) - Buenos Aires, Argentina </h3>
+                        <p className="info-date">04/2023 - Today</p>
                     </div>
                     <div className="info-section">
                         <h2 className="info-title">Education</h2>
@@ -56,6 +60,7 @@ export const About = () => {
                         <h3 className="info-subtitle"><FaReact /> React </h3>
                         <h3 className="info-subtitle"><FaNodeJs /> Node.Js </h3>
                         <h3 className="info-subtitle"><FaDatabase /> MongoDB </h3>
+                        <h3 className="info-subtitle"><img className='terra-img' src={terraform} alt="terraform"/> Terraform </h3>
 
                     </div>
                     <div className="info-section">
