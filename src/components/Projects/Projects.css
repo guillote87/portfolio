@@ -1,0 +1,39 @@
+.portfolio-icons {
+    transition: .3s ease-in-out;
+    width: 300px;
+    margin: auto;
+}
+
+.portfolio-icons ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio-icons li {
+    list-style: none;
+}
+
+.portfolio-icons img {
+    width: 50px;
+}
+
+
+.projects {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio-icons li {
+        transition: .3s ease-in-out;
+    }
+
+    .portfolio-icons li:hover {
+        transform: scale(120%);
+
+    }
+}

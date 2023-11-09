@@ -1,0 +1,55 @@
+
+.projects-title {
+    font-size: 3rem;
+    padding:1rem
+}
+
+.project-title {
+    font-size: 1.5rem;
+    color: orange
+}
+
+.project img {
+    width: 100%;
+    border: 4px darkmagenta solid
+}
+
+.project-buttons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-buttons svg {
+    color: orange;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.demo-button {
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    background-color: silver;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.demo-button:hover {
+    background-color: orange;
+}
+@media screen and (min-width: 768px) {
+
+    .project {
+        padding: 10px;
+        width: 400px;
+    }
+    .project img {
+        border: 2px darkmagenta solid
+    }
+
+    .projects-title {
+        margin-left: 60px;
+    }
+}

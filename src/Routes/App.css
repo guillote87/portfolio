@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 80px
+}
+
+.notFound {
+    border: solid 1px black;
+    font-size: 4rem;
+    text-align: center;
+}
