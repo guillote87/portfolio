@@ -8,9 +8,9 @@ export const Sidebar = ({ isOpen, toggle }) => {
 
     const location = useLocation()
     const className = `sidebar-container ${isOpen ? "open" : ""}`;
-    const toggleHome = () => {
-        scroll.scrollToTop()
-    }
+    // const toggleHome = () => {
+    //     scroll.scrollToTop()
+    // }
     return (
         <aside className={className} onClick={toggle}>
             <div className='icon' onClick={toggle}>
