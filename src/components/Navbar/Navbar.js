@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import "./Navbar.css"
 import { animateScroll as scroll, Link as LinkS } from 'react-scroll'
+<<<<<<< HEAD
+=======
+
+>>>>>>> 85f90b9d63a7a8e78b3b301ef70799c386d481b8
 import { FaBars } from "react-icons/fa";
 import { Link, useLocation } from 'react-router-dom';
 
