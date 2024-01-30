@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import "./Navbar.css"
 import { animateScroll as scroll, Link as LinkS } from 'react-scroll'
-import logo from '../../images/logo.png'
 import { FaBars } from "react-icons/fa";
 import { Link, useLocation } from 'react-router-dom';
 
