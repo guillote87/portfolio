@@ -26,7 +26,7 @@ const skills = [
     },
     {
         name: "Docker",
-        img: "docker.svg"
+        img: "docker.png"
     }, {
         name: "Terraform",
         img: `terraform.png`
