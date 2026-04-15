@@ -6,14 +6,29 @@
     display: flex;
     align-items: center;
     position: fixed;
-    padding: 0.5rem 0rem;
-    background-color: black;
-    color: #fff;
+    padding: 0.5rem 0;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
 }
 
-a {
+.navbar a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-primary);
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggle:hover {
+    color: var(--accent-hover);
 }
 
 .navbar-logo {
@@ -29,12 +44,12 @@ a {
     align-items: center;
     top: 80px;
     left: 0;
-    color: black;
+    color: var(--text-primary);
     flex-direction: column;
     display: flex;
     width: 100%;
     height: auto;
-    background-color: orange;
+    background-color: var(--bg-primary);
 }
 
 .navbar-menu-open a {
@@ -43,20 +58,16 @@ a {
 }
 
 .mobile-menu {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 1rem;
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff;
+    color: var(--accent);
+    background: none;
+    border: none;
+    padding: 0.25rem;
 }
 
 .span1::before {
@@ -64,8 +75,8 @@ a {
 }
 
 .title {
-    color: orange;
-    font-size: 30px;
+    color: var(--accent);
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Days One', sans-serif;
     /* font-family: 'Secular One', sans-serif;
@@ -81,7 +92,7 @@ a {
 @media screen and (min-width: 768px) {
 
     .title {
-        color: orange;
+        color: var(--accent);
         font-size: 30px;
         font-weight: bold;
         letter-spacing: 3px;
@@ -118,39 +129,45 @@ a {
 
 
     .title:hover span {
-        color: magenta;
-        text-shadow: 0 0 10px darkmagenta,
-            0 0 20px darkmagenta,
-            0 0 40px darkmagenta;
+        color: var(--accent);
+        text-shadow: 0 0 10px var(--accent),
+            0 0 20px var(--accent),
+            0 0 40px var(--accent);
     }
 
     .navbar-menu {
-        text-align: right;
-        color: orange;
-        display: block;
+        color: var(--accent);
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
         margin-left: auto;
-        width: 60%;
-        background-color: black;
+        background-color: var(--bg-primary);
         position: absolute;
-        right: 10px;
-        top: 25px;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .navbar-menu-open {
         display: none;
     }
 
-    .navbar-menu a {
+    .navbar-menu a,
+    .navbar-menu .theme-toggle {
         cursor: pointer;
         font-size: 20px;
-        margin-right: 20px;
+        margin-right: 12px;
     }
 
     .navbar-menu a:hover {
-        color: orange
+        color: var(--accent);
     }
 
     .mobile-menu {
         display: none;
+    }
+
+    .mobile-menu:hover {
+        color: var(--accent-hover);
     }
 }
